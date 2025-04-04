@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/TheHangoutDelhi-/static/css/main.42cc1abf.css",
-    "main.js": "/TheHangoutDelhi-/static/js/main.7583de0b.js",
+    "main.js": "/TheHangoutDelhi-/static/js/main.7af59302.js",
     "static/js/453.d52e097f.chunk.js": "/TheHangoutDelhi-/static/js/453.d52e097f.chunk.js",
     "static/media/canva.jpg": "/TheHangoutDelhi-/static/media/canva.ee1cb4c98bd6844892be.jpg",
     "index.html": "/TheHangoutDelhi-/index.html",
     "main.42cc1abf.css.map": "/TheHangoutDelhi-/static/css/main.42cc1abf.css.map",
-    "main.7583de0b.js.map": "/TheHangoutDelhi-/static/js/main.7583de0b.js.map",
+    "main.7af59302.js.map": "/TheHangoutDelhi-/static/js/main.7af59302.js.map",
     "453.d52e097f.chunk.js.map": "/TheHangoutDelhi-/static/js/453.d52e097f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.42cc1abf.css",
-    "static/js/main.7583de0b.js"
+    "static/js/main.7af59302.js"
   ]
 }
