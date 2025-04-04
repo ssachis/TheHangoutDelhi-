@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/ssachis/TheHangoutDelhi-/static/css/main.3a9c42f7.css",
+    "main.js": "/ssachis/TheHangoutDelhi-/static/js/main.cba038ef.js",
+    "static/js/453.d52e097f.chunk.js": "/ssachis/TheHangoutDelhi-/static/js/453.d52e097f.chunk.js",
+    "static/media/canva.jpg": "/ssachis/TheHangoutDelhi-/static/media/canva.ee1cb4c98bd6844892be.jpg",
+    "index.html": "/ssachis/TheHangoutDelhi-/index.html",
+    "main.3a9c42f7.css.map": "/ssachis/TheHangoutDelhi-/static/css/main.3a9c42f7.css.map",
+    "main.cba038ef.js.map": "/ssachis/TheHangoutDelhi-/static/js/main.cba038ef.js.map",
+    "453.d52e097f.chunk.js.map": "/ssachis/TheHangoutDelhi-/static/js/453.d52e097f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3a9c42f7.css",
+    "static/js/main.cba038ef.js"
+  ]
+}
