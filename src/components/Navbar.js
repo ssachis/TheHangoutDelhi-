@@ -4,7 +4,7 @@ const Navbar = () => (
   <nav className="custom-navbar">
     <div className="navbar-container container d-flex align-items-center justify-content-between">
       <a className="navbar-logo" href="#">
-        <img src="/images/logo4.png" alt="The Hangout Delhi Logo" />
+        <img src="images/logo4.png" alt="The Hangout Delhi Logo" />
       </a>
       <ul className="navbar-links d-none d-lg-flex">
         <li><a href="#about">About</a></li>
