@@ -1,25 +1,42 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
 
-function App() {
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './css/styles.css';
+import './css/Form.css'; 
+
+import Navbar from './components/Navbar';
+import Hero from './components/Hero';
+import About from './components/About';
+import Experiences from './components/Experiences';
+import Partners from './components/partners';
+import Testimonials from './components/Testimonials';
+import FAQ from './components/Faq';
+import Footer from './components/footer';
+import RegistrationForm from './components/Register';
+
+const Home = () => (
+  <>
+    <Navbar />
+    <Hero />
+    <About />
+    <Experiences />
+    <Partners />
+    <Testimonials />
+    <FAQ />
+    <Footer />
+  </>
+);
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/register" element={<RegistrationForm />} />
+      </Routes>
+    </Router>
   );
-}
+};
 
 export default App;
